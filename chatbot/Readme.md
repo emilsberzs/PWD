@@ -24,6 +24,6 @@ Sample conversation snippet:
 
     Chatbot: You are welcome.
 
-    User: Bye
+     nmr: Bye
 
 -- Exits the chat --
