@@ -16,3 +16,18 @@ def sumInputs():
 
 #sumInputs()
 
+#Lambda function
+z = lambda x,y: x*y
+print(z(3,4))
+
+#Function returning lambda function
+def multiplier(n):
+    """Returns lambda function that multiplies its input by given n"""
+    return lambda number: n*number
+
+tripler = multiplier(3)
+quadrupler = multiplier(4) 
+
+
+print(tripler(int(input("Enter number to triple: "))))
+print(quadrupler(int(input("Enter number to quadruple: "))))
