@@ -37,7 +37,7 @@ date1=np.datetime64("2025-10-10") #creates date
 date2=np.datetime64("2025-10-13")
 print(date1<date2) #produces bool
 date3 = date1 + np.timedelta64(10,"D") #adds 10 days
-date3 = date1 + np.timedelta64(10,"Y") #adds 10 days
+
 print(date3)
 
 
