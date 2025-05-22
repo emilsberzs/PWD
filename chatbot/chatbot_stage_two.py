@@ -10,6 +10,7 @@ responses = ["Hello, how can I assist You today?",
              "You are welcome"
              ]
 
+
 #Zips two lists into one dictionary, first list as keys, second list as values
 def zip_responses(precepts, responses):
     return dict(zip(precepts,responses))
@@ -55,7 +56,7 @@ def chat():
         #3. Search for a pattern in the percepts and fetch a prepared responses            
         chatbot_response(user_input)
 
-chat()
+#chat()
 
 formated = 'You can have {food_item} and a {drink_item} with me'.format(drink_item='soda', food_item = 'burger')
 food = 'burger'
@@ -65,3 +66,11 @@ drink = 'soda'
 fstring = f'Grab a {food} and a {drink} with me'
 # print(formated)
 # print(fstring)
+
+name_regex = r"\b[A-Z]\w+"
+color_regex = r"color|tone|shade"
+color = "My favourite color is red"
+name = "Emils"
+
+#print(re.search(name_regex, name))
+print(re.search(color_regex, color))
