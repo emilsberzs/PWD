@@ -27,3 +27,5 @@ Sample conversation snippet:
      nmr: Bye
 
 -- Exits the chat --
+
+Just checking if git is setup for this machine
