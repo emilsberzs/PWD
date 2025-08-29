@@ -61,10 +61,16 @@ def date_cleanup(date):
     return pd.to_datetime(date, errors='coerce').date()
 
 df['launch_date'] = df['launch_date'].map(date_cleanup)
+print('\nAFTER launch_date CLEANUP\n')
+print(df)
+
+
+# Remove duplicates from dates column
+df= df.drop_duplicates(subset='name', keep='first')
+print('\nAFTER REMOVING DUPLICATES:\n')
 print(df)
 
 
 
-
 # Store the corrected dataframe back to a csv file
-df.to_csv('practice_corected.csv', index = False)
+df.to_csv('practice_corrected.csv', index = False)
