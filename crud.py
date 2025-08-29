@@ -97,20 +97,21 @@ print("\nUPDATE items SET price=99.99, in_stock=0 WHERE name =='Product A'\n")
 print_table(cursor)
 
 # Rename the table
-cursor.execute("ALTER TABLE items RENAME TO new_items")
-cursor.execute("ALTER TABLE new_items RENAME TO items")
+#cursor.execute("ALTER TABLE items RENAME TO new_items")
+#cursor.execute("ALTER TABLE new_items RENAME TO items")
 print("\nAFTER RENAMES:")
 print_table(cursor)
 
 # Delete product from table
-cursor.execute("DELETE FROM items WHERE name == 'Product A'")
+#cursor.execute("DELETE FROM items WHERE name == 'Product A'")
 print('\nAFTER DELETING PRODUCT A')
 print_table(cursor)
 
 # Drop the table
-cursor.execute("DROP TABLE items")
+# cursor.execute("DROP TABLE items")
 print("\nDESCRIPTION AFTER DROPPING THE TABLE\n")
 print(cursor.description)
 
 # Commit all the changes
 connection.commit()
+print_table(cursor)
