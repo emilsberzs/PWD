@@ -1,0 +1,14 @@
+name,price,instock,rating,review,launch_date
+Product Name: Hats,Price: £25.99,In Stock: Yes,Rating: ★★★★☆,"Review: ""  Great quality hat!   Highly recommend.  """,Launch Date: 2024-02-15
+Product Name: Books,Price: ,In Stock: No,Rating: ★★★★★,"Review: ""Excellent content.  
+   Informative and engaging. """,Launch Date: 15 February 2024
+Product Name: Shoes,Price: £50.00,In Stock: Yes,Rating: ★★★☆☆,"Review: ""Comfortable and stylish.   
+But slightly overpriced. """,Launch Date: 
+Product Name: Hats,Price: £25.99,In Stock: Yes,Rating: ★★★★☆,"Review: ""Loved the design!  """,Launch Date: 2024-06-10
+Product Name: Product-1,Price: ,In Stock: No,Rating: ★★★☆☆,"Review: ""   Decent product, but not exceptional. """,Launch Date: 2024-09-01
+Product Name: Product-1,Price: £19.99,In Stock: Yes,Rating: ★★★★☆,"Review: ""Reliable and affordable!   """,Launch Date: 1 September 2024
+Product Name: Bags,Price: £49.99,In Stock: Yes,Rating: ★★★★★,"Review: ""Perfect for travel. 
+ Spacious and durable.  """,Launch Date: 2024-12-20
+Product Name: Jackets,Price: ,In Stock: No,Rating: ★★★☆☆,"Review: ""Stylish but not warm enough for winter. """,Launch Date: 3000-01-01
+Product Name: Super Expensive Item,Price: £1000000,In Stock: Yes,Rating: ★★★★★,"Review: ""This is a top-tier product! Worth every penny."" ",Launch Date: 1800-01-01
+Product Name: Affordable Product,Price: £0.01,In Stock: Yes,Rating: -1,"Review: ""Terrible quality. Wouldn't recommend."" ",Launch Date: 2024-07-01

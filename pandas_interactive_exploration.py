@@ -34,5 +34,6 @@ df.to_sql("items", connection, if_exists="replace", index=False)
  # Drop a column (default axis is rows, so to drop column we need to specify additional argument axis=1, and also inplace=True (not sure whats that for tho))
 df.drop("in_stock", axis=1, inplace=True)
 print("\nAFTER DROPPING in_stock\n")
-print(df)
+print(df['launch_date'])
 # Now we could do df.to_sql("items, connection, if_exists='replace', index = False") to commit, but i won't
+

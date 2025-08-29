@@ -1,0 +1,14 @@
+name,price,instock,rating,review,launch_date
+Hats,25.99,Yes,4,"""  Great quality hat!   Highly recommend.  """,2024-02-15
+Books,,No,5,"""Excellent content.  
+   Informative and engaging. """,2024-02-15
+Shoes,50.0,Yes,3,"""Comfortable and stylish.   
+But slightly overpriced. """,
+Hats,25.99,Yes,4,"""Loved the design!  """,2024-06-10
+Product-1,,No,3,"""   Decent product, but not exceptional. """,2024-09-01
+Product-1,19.99,Yes,4,"""Reliable and affordable!   """,2024-09-01
+Bags,49.99,Yes,5,"""Perfect for travel. 
+ Spacious and durable.  """,2024-12-20
+Jackets,,No,3,"""Stylish but not warm enough for winter. """,
+Super Expensive Item,1000000.0,Yes,5,"""This is a top-tier product! Worth every penny.""",1800-01-01
+Affordable Product,0.01,Yes,0,"""Terrible quality. Wouldn't recommend.""",2024-07-01
